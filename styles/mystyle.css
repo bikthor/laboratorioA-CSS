@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div:hover {
+    background-color: beige;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}
