@@ -1,12 +1,14 @@
 main {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 main div {
     width: 200px;
     height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -18,4 +20,8 @@ main div:hover {
 img {
     width: 100px;
     height: auto;
+}
+
+p {
+    font-size: 120%;
 }
